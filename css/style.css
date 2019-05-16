@@ -1,0 +1,103 @@
+body{
+	padding: 0;
+	margin:0;
+	font-family: sans-serif;
+
+}
+header{
+	height: 80px;
+	background-color: #9c9595;
+	padding: 0;
+}
+.tituloPage{
+	text-align: center;
+	color: #fff;
+	margin:0;
+	font-size: 30px;
+}
+.left{
+	float: left;
+	padding: 20px;
+	margin-left: 30%
+
+
+}
+.right{
+	padding: 20px;
+	color:#fff;
+	float:right;
+}
+.nome{
+	margin-right: 2.5px;
+}
+.divNome{
+	margin-bottom: 3px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 140px;
+	margin-top: 100px;
+	border: solid 1px ;
+	margin-left: 4px;
+	border-radius: 2%;
+}
+.barraLateral{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 86%;
+  overflow: auto;
+}
+ul li {
+	position: relative;
+	padding: 10px;
+}
+li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+}
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #E2144A;
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #ccc; 
+}
+.barraLateral{
+	position: absolute;
+}
+button{
+	color: white;
+  background-color: black;
+  border: solid 1px black;
+  text-align: center;
+  font-size: 38px;
+  width: 390px;
+  height: 70px;
+  border-radius: 3%;
+}
+.button{
+  display: inline;
+}
+.a{
+	display: inline-block;
+}
+.subNav{
+	margin-left:150PX;
+	padding:1px 16px;
+}
+.quadro{
+	width: 70%;
+	height: 420px;
+	border: solid 1px black;
+	margin-top: 10px;
+  margin-left: 165px;
+}
